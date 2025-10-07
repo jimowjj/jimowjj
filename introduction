@@ -1,0 +1,10 @@
+Project Name: Guess the Number (Number Guessing Game)
+Project Description: The player guesses a random number within a specified range. The system provides "bigger/smaller" hints based on the player's input until the correct number is guessed.
+Basic Functions: 
+Generate a random number (between 1 and 100) 
+Input box and "Submit" button 
+Real-time feedback: Too large / Too small / Congratulations
+Enhanced features: 
+Scoring: Record the number of attempts 
+Limitations: If the request is made more than N times, a failure message will be displayed. 
+Prompt system: Provides proximity indication
