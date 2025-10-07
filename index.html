@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guess the Number — Project Description</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Guess the Number Game</h1>
+
+    <section class="card">
+      <h2>Project Description</h2>
+      <p>
+        The player tries to guess a random number within a certain range. 
+        The system gives feedback — “too high”, “too low”, or “correct” — 
+        until the player finds the right number.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Features</h2>
+
+      <h3>Basic Features</h3>
+      <ul>
+        <li>Generate a random number (1–100)</li>
+        <li>Input box and “Submit” button</li>
+        <li>Feedback message: too high / too low / correct</li>
+      </ul>
+
+      <h3>Enhanced Features</h3>
+      <ul>
+        <li>Score tracking (count number of attempts)</li>
+        <li>Limited attempts (lose if you exceed max tries)</li>
+        <li>Hint system (e.g., “very close”)</li>
+      </ul>
+
+      <h3>Advanced Features (Optional)</h3>
+      <ul>
+        <li>Leaderboard (using local storage)</li>
+        <li>Difficulty levels (change range and attempts)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Layout Sketch</h2>
+      <pre class="ascii">
++----------------------------------------+
+|   Guess the Number (1-100)             |
+|  [ input number ]  [Submit] [Reset]    |
+|  Message: "Too high!" / "Too low!"     |
+|  Attempts: 3        Best: 5            |
++----------------------------------------+
+    </section>
+
+    <footer>
+      <p>Author: Jiajun Wen</p>
+      <p>Repository: <a href="./">This GitHub Repo</a></p>
+    </footer>
+  </main>
+</body>
+</html>
